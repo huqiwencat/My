@@ -1,0 +1,35 @@
+/*公共*/
+body {
+    background-color: #FFFFFF;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+/*基金规则*/
+.L-ruleTitle{
+	width: 90%;
+	font-size: 14px;
+	padding-top: 5%;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.L-ruleContent{
+	width: 90%;
+	padding-left: 2%;
+	line-height: 25px;
+	font-size: 12px;
+	color: #adadad;
+}
+.L-footer-rule{
+	width: 90%;
+	padding-left: 2%;
+	padding-bottom: 2%;
+	font-size: 12px;
+	color: #adadad;
+	line-height: 25px;
+}

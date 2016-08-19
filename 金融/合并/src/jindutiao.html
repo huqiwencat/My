@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,
+           minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/circle-progress.js"></script>
+    <script src="bower_components/progressbar.js/dist/progressbar.min.js"></script>
+    <title>Title</title>
+    <style>
+        .content{
+            text-align: center;
+            color: #3e3e3e;
+        }
+        .header{
+            text-align: center;
+        }
+        .ccc{
+            width: 50%;
+            margin-left: 25%;
+        }
+    </style>
+</head>
+
+
+<body>
+<div class="ccc">
+<div id="example-circle-container">
+
+</div>
+</div>
+111
+<input type="tel" required>
+<script>
+    var circle = new ProgressBar.Circle('#example-circle-container', {
+        color: '#FCB03C',
+        strokeWidth: 2,
+        fill: '#FFF',
+        duration: 500,
+        easing: '',
+        trailColor: "#ddd"
+    });
+
+    circle.animate(0.7, function() {
+        circle.setText("<a href='www.baidu.com' >aaaaaa</a><div class=\"content\"> <header>ProgressBar.js</header> <h3>Beautiful progress bars</h3> </div>");
+
+    })
+</script>
+</body>
+</html>

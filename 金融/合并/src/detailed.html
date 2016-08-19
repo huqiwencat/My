@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>PU币明细</title>
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css?v=001" rel="stylesheet">
+    <link href="css/reset.css?v=001" rel="stylesheet">
+</head>
+<body>
+<div class="h-detail">
+    <div class="h-detail-header">
+        <p>余额</p>
+
+        <p class="h-bigred">560.00</p>
+
+        <div class="h-detail-fix">
+            <a>明细</a>
+        </div>
+    </div>
+
+    <!--<div class="h-detail-pu">-->
+    <!--<header class="clearfix">-->
+    <!--<div>-->
+    <!--挣取PU币-->
+    <!--</div>-->
+    <!--<div>-->
+    <!--<a>-->
+    <!--更多-->
+    <!--</a>-->
+    <!--</div>-->
+    <!--</header>-->
+    <!--<ul class="h-detail-ul">-->
+    <!--<li>-->
+    <!--<div>欢乐购超市导购员一天</div>-->
+    <!--<div>100PU币</div>-->
+    <!--<div>现在就去</div>-->
+    <!--</li>-->
+    <!--<li>-->
+    <!--<div>欢乐购超市导购员一天</div>-->
+    <!--<div>0PU币</div>-->
+    <!--<div>现在就去</div>-->
+    <!--</li>-->
+    <!--<li>-->
+    <!--<div>欢乐购超市导购员一天</div>-->
+    <!--<div>100PU币</div>-->
+    <!--<div>现在就去</div>-->
+    <!--</li>-->
+    <!--<li>-->
+    <!--<div>欢乐购超市导购员一天</div>-->
+    <!--<div>100PU币</div>-->
+    <!--<div>现在就去</div>-->
+    <!--</li>-->
+    <!--</ul>-->
+    <!--</div>-->
+</div>
+
+<div class="h_DliuCover">
+    <div class="h-DLiu" style="display:none;">
+
+        <div>
+            充值
+        </div>
+        <div>
+            <img class="h-DLiu-img" src="img/liuZuo.png">
+
+        </div>
+
+    </div>
+    <div class="h-DLiu" style="display:none;">
+
+        <div>
+            提现
+        </div>
+        <div>
+            <img class="h-DLiu-img" src="img/liuZuo.png">
+
+        </div>
+
+    </div>
+    <div class="h-DLiu" style="display:none;">
+
+        <div>
+           买流量
+        </div>
+        <div>
+            <img class="h-DLiu-img" src="img/liuZuo.png">
+
+        </div>
+
+    </div>
+</div>
+<ul class="wk_footBar" style="display:none;">
+    <!--给相应li添加class表选中的状态-->
+    <li class="barSelected"><a href="">
+        <img src="img/wimg8.png" data-src="img/wimg88.png">
+        <p>首页</p></a>
+    </li>
+    <li><a href="">
+        <img src="img/wimg9.png" data-src="img/wimg99.png">
+        <p>订单</p></a>
+    </li>
+    <li><a href="">
+        <img src="img/wimg10.png" data-src="img/wimg1010.png">
+        <p>客服</p></a>
+    </li>
+    <li><a href="">
+        <img src="img/wimg11.png" data-src="img/wimg1111.png">
+        <p>我的</p></a>
+    </li>
+</ul>
+<footer class="h-detail-foot"  style="display:none;">
+    <div class="h-detail-btn clearfix">
+        <div>
+            充值
+        </div>
+        <div>
+            提现
+        </div>
+    </div>
+</footer>
+</body>
+<script src="bower_components/jquery/dist/jquery.js" ></script>
+<script src="js/jr.js" ></script>
+<script>
+        if (typeof(Android) == "undefined") {
+            $(".wk_footBar").show();
+            document.getElementsByClassName("h-DLiu")[0].style.display="";
+            document.getElementsByClassName("h-DLiu")[1].style.display="";
+        }else{
+            document.getElementsByClassName("h-DLiu")[2].style.display="";
+            $(".h-detail-foot").show();
+        }
+</script>
+</html>

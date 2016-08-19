@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body bgcolor="#F3F1EE">
+	<div class="w-head"><img src="img/back.png" onclick="history.back(-1)">提额包</div>
+	<!--data-isGet用于判断是否领取,1表领取0表未领取  具体数值设置待定-->
+	<div class="w-bagGeneral" data-isGet="1">
+		<img src="img/m1.png">
+		<div>
+			<p>提升额度</p>
+			<p>85.00</p>
+		</div>
+		<p>
+			<img src="img/delete.png">
+			<button>已领取</button>
+		</p>
+	</div>
+	<div class="w-bagGeneral" data-isGet="0">
+		<img src="img/m2.png">
+		<div>
+			<p>提升额度</p>
+			<p>85.00</p>
+		</div>
+		<p>
+			<img src="img/delete.png">
+			<button class="w-select">领取</button>
+		</p>
+	</div>
+	<div class="w-bagGeneral" data-isGet="1">
+		<img src="img/m2.png">
+		<div>
+			<p>提升额度</p>
+			<p>85.00</p>
+		</div>
+		<p>
+			<img src="img/delete.png">
+			<button class="w-select">领取</button>
+		</p>
+	</div>
+	<!--透明遮罩层-->
+	<div class="w-transparent">
+		<div>
+			<i>你已成功领取！</i>
+			<p>
+				<span>查看额度</span>
+				<span>分享</span>
+			</p>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="js/puBag.js" ></script>
+</html>

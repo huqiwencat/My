@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>PU币充值</title>
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css?v=001" rel="stylesheet">
+    <link href="css/reset.css?v=001" rel="stylesheet">
+
+</head>
+<body>
+<header class="h-public-header container">
+    <div>
+        <img class="img-responsive" src="img/header_back.png">
+    </div>
+    <div>
+        PU币充值
+    </div>
+
+</header>
+<div class="h-PuTop">
+    <header>
+        <img class="img-responsive" src="img/PU_background.png">
+    </header>
+
+    <div class="h-Pu-input">
+        <input type="text" placeholder="选择充值金额">
+    </div>
+    <div class="h-PuTop-list">
+    <ul class="clearfix">
+        <li>
+            $ 10.00
+        </li>
+        <li>
+            $ 10.00
+        </li>
+        <li>
+            $ 10.00
+        </li>
+        <li>
+            $ 10.00
+        </li>
+
+    </ul>
+    <div class="h-Pu-more">
+        <input type="text" placeholder="请输入其他金额">
+    </div>
+
+        <div class="h-PuUp-btn clearfix">
+            <div>
+                微信充值
+            </div>
+            <div>
+                支付宝充值
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="bower_components/jquery/dist/jquery.js"></script>
+</html>
+<script>
+$( function(){
+    $(".h-PuTop-list li").click(function(){
+        $(".h-PuUp-on").removeClass("h-PuUp-on");
+        $(this).addClass("h-PuUp-on");
+    });
+});
+
+</script>

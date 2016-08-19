@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+	 	 <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title></title>
+		
+		<link rel="stylesheet" href="css/swiper-3.3.1.min.css" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body bgcolor="#f2f1ee" style="padding-bottom:75px">
+		<div class="swiper-container">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide"><a href=""><img src="img/bannner@2x.png"></a></div>
+		        <div class="swiper-slide"><a href=""><img src="img/bannner@2x.png"></a></div>
+		        <div class="swiper-slide"><a href=""><img src="img/bannner@2x.png"></a></div>
+		        
+		    </div>
+		  	<!-- 如果需要分页器 -->
+    		<div class="swiper-pagination"></div>
+		</div>
+		<ul class="wk_type">
+			<li onclick="window.location.href='http://pocketuniv.com:9001/index.php?app=pufinance&mod=Money&act=index'">
+				<img src="img/wimg1.png">
+				<p>PU币</p>
+				<p>0.1</p>
+			</li>
+			<li onclick="window.location.href='http://pocketuniv.com:9001/index.php?app=pufinance&mod=PuCredit&act=index'">
+				<img src="img/wtp.png">
+				<p>天平</p>
+				<p>0.1</p>
+			</li>
+			<li onclick="window.location.href='http://pocketuniv.com:9001/index.php?app=pufinance&mod=Bankcard&act=index'">
+				<img src="img/wimg3.png">
+				<p>银行卡</p>
+				<p>0.1</p>
+			</li>
+		</ul>
+		<ul class="wk_common">
+			<p>常用</p>
+			<ul><a href="">
+				<li>
+					<img src="img/wimg5.png">
+					<div>
+						<p>活动基金</p>
+						<p>组织活动无忧</p>
+					</div>
+				</li></a>
+				<a href="">
+				<li>
+					<img src="img/wimg4.png">
+					<div>
+						<p>创业基金</p>
+						<p>轻松创业</p>
+					</div>
+				</li></a>
+			</ul>
+		</ul>
+		
+		<ul class="wk_common">
+			<p>其他</p>
+			<ul><a href="">
+				<li>
+					<img src="img/wimg6.png">
+					<div>
+						<p>买流量</p>
+						<p>解释文字性说明</p>
+					</div>
+				</li></a>
+				<a href="">
+				<li>
+					<img src="img/wimg7.png">
+					<div>
+						<p>做公益</p>
+						<p>解释文字性说明</p>
+					</div>
+				</li></a>
+			</ul>
+		</ul>
+		
+		<ul class="wk_footBar">
+			<!--给相应li添加class表选中的状态-->
+			<li ><a href="">
+				<img src="img/wimg8.png" data-src="img/wimg88.png">
+				<p>首页</p></a>
+			</li>
+			<li class="barSelected"><a href="">
+				<img src="img/wimg9.png" data-src="img/wimg99.png">
+				<p>订单</p></a>
+			</li>
+			<li><a href="">
+				<img src="img/wimg10.png" data-src="img/wimg1010.png">
+				<p>客服</p></a>
+			</li>
+			<li><a href="">
+				<img src="img/wimg11.png" data-src="img/wimg1111.png">
+				<p>我的</p></a>
+			</li>
+		</ul>
+	</body>
+	<script type="text/javascript" src="js/swiper-3.3.1.min.js"></script>
+	<script>        
+	  window.onload=function(){
+	  	var mySwiper = new Swiper ('.swiper-container', {
+		    direction: 'horizontal',
+		    loop: true,
+		    autoplay:3000,
+		    // 如果需要分页器
+		    pagination: '.swiper-pagination',
+		    
+		  
+		  }); 
+	  }
+  </script>
+	
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>填写信息</title>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body bgcolor="#F3F1EE">
+		<div class="header">
+			<img src="img/back.png" onclick="history.back(-1)" />填写信息
+		</div>
+		<div class="L-article">
+			<div>
+				<span>*</span><i>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名:</i><input id="name"/>
+			</div>
+			<div>
+				<span>*</span><i>民&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;族:</i><input id="nation" />
+			</div>
+			<div>
+				<span>*</span><i>QQ(&nbsp;微 信&nbsp;):</i><input id="qq"/>
+			</div>
+			<div>
+				<span>*</span><i>邮&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;箱:</i><input id="email" />
+			</div>
+			<div>
+				<span>*</span><i>地&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;址:</i>
+				<textarea id="address"  default_height="32" >
+					
+				</textarea>
+			</div>
+			<div>
+				<span>*</span><i>紧急联系人手机号:</i><input id="telphon" />
+			</div>
+			<div>
+				<i>&nbsp;推荐人uid:</i><input id="name"/>
+			</div>
+			<div class="L-inbag">
+				<button>完成</button>
+			</div>
+		</div>
+	</body>
+</html>
+<script>
+	function changesize(obj) {
+		var d_h = obj.attributes['default_height'].value;
+		if(obj.scrollHeight > d_h) {
+		obj.style.height = obj.scrollHeight + 'px';
+		} else {
+		obj.style.height = d_h + 'px';
+		}
+		}
+	window.onload = function() {
+		var obj = document.getElementsByTagName('textarea');
+		var len = obj.length;
+		for(var i=0;i<len;i++) {
+		changesize(obj[i]);
+		}
+	}
+</script>

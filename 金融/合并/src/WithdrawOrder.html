@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name = "format-detection" content = "telephone=no">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>提现订单</title>
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css?v=001" rel="stylesheet">
+    <link href="css/reset.css?v=001" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="h-puj h-_WiOd clearfix">
+    <div class="h-puj-on" data-ptype="0">全部</div>
+    <div data-ptype="1">审核中</div>
+    <div data-ptype="2">待放款</div>
+    <div data-ptype="2">待放款</div>
+    <div data-ptype="3">已放款</div>
+</header>
+<div class="h-fqsc">
+    <ul>
+        <li>
+            <header class=" container">
+                <p class="h_WiOdDate pull-left">06月06日 00:00</p>
+                <p class="pull-right h-color-red">待放款</p>
+            </header>
+            <div class="h-fqsc-con clearfix container">
+                <div class="h-bank-card bank-1">
+                    <p class="clearfix container">
+                        <img class="img-responsive" src="img/testimg.jpg">
+                        <span>招商银行储蓄卡</span>
+                    </p>
+                    <p><i class="h-point"></i>
+                        <i class="h-point"></i>
+                        <i class="h-point"></i>
+                        <i class="h-point"></i>
+                        &emsp13;
+                        <i class="h-point"></i>
+                        <i class="h-point"></i>
+                        <i class="h-point"></i>
+                        <i class="h-point"></i>
+                        &emsp13;
+                        <i class="h-point"></i>
+                        <i class="h-point"></i>
+                        <i class="h-point"></i>
+                        <i class="h-point"></i>
+                        <i>3918</i>
+                    </p>
+                </div>
+                <div class="h-fqsc-con-r h_WiOdFlag pull-right">
+                    金额: <p>$5889.00</p>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<!--todo 为空时显示-->
+<div class="h-repayNoTip">
+    <img  src="img/NoRecord.png">
+</div>
+
+<ul class="wk_footBar">
+    <!--给相应li添加class表选中的状态-->
+    <li><a href="">
+        <img src="img/wimg8.png" data-src="img/wimg88.png">
+        <p>首页</p></a>
+    </li>
+    <li class="barSelected"><a href="">
+        <img src="img/wimg9.png" data-src="img/wimg99.png">
+        <p>订单</p></a>
+    </li>
+    <li><a href="">
+        <img src="img/wimg10.png" data-src="img/wimg1010.png">
+        <p>客服</p></a>
+    </li>
+    <li><a href="">
+        <img src="img/wimg11.png" data-src="img/wimg1111.png">
+        <p>我的</p></a>
+    </li>
+</ul>
+</body>
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="js/order.js"></script>
+<script src="js/jr.js" ></script>
+<script>
+    if (typeof(Android) !== "undefined") {
+        $(".wk_footBar").hide();
+    }else{
+        $(".h-fqsc").css({"margin-bottom":"65px","padding-bottom":"5px"});
+    }
+</script>
+</html>
+
+

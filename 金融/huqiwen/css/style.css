@@ -1,0 +1,936 @@
+/*公共*/
+.h-color-red {
+    color: #d33107 !important;
+}
+
+.h-big {
+    font-size: 18px !important;
+}
+
+.h-color-5504 {
+    color: #ea5504 !important;
+}
+
+.h-public-header {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #fff;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.h-public-header div {
+    line-height: 40px;
+}
+
+.h-public-header img {
+    width: 20px;
+    height: 20px;
+    margin: 10px 0;
+}
+
+.h-public-header div:nth-child(1), .h-public-header div:nth-child(3) {
+    width: 20%;
+    padding: 0 15px;
+    float: left;
+    text-align: right;
+    color: #ea5504;
+}
+
+.h-public-header div:nth-child(2) {
+    text-align: center;
+    width: 60%;
+    float: left;
+}
+
+/*分期商城*/
+.h-fqsc {
+    margin-top: 10px;
+    background-color: #fff;
+}
+
+.h-fqsc header {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #f3f1ee;
+}
+
+.h-fqsc-con {
+    border-bottom: 1px solid #f3f1ee;
+}
+
+.h-fqsc-con div {
+    height: 83px;
+    margin: 8px auto;
+    overflow: hidden;
+}
+
+.h-fqsc-con-l {
+
+}
+
+.h-fqsc-con-l img {
+    width: 65px;
+    height: 65px;
+}
+
+.h-fqsc-con-c {
+    width: 50%;
+    margin-left: 10px !important;
+    font-size: 14px;
+    color: #888;
+}
+
+.h-fqsc-con-r {
+    width: 23%;
+    text-align: right;
+}
+
+.h-fqsc-con-r p:nth-child(2) {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.h-fqsc-foot {
+    border-bottom: 1px solid #f3f1ee;
+}
+
+.h-fqsc-foot div:nth-child(1) {
+    padding-bottom: 10px;
+}
+
+.h-fqsc-foot p {
+    margin: 3px auto;
+    clear: both;
+}
+
+.h-fqsc-foot p:nth-child(n+2) {
+    color: #888;
+}
+
+.h-pu-grey {
+    width: 70px;
+    height: 30px;
+    margin: -3px 0;
+    line-height: 30px;
+    color: #ccc;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+
+/*pu金*/
+.h-puj {
+    margin-top: -10px;
+}
+
+.h-puj div {
+    width: 20%;
+    height: 32px;
+    float: left;
+    line-height: 32px;
+    text-align: center;
+    border-top: 1px solid #efefef;
+    border-right: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+}
+
+.h-puj-on {
+    color: #ea5504 !important;
+    border-bottom: 1px solid #ea5504 !important;
+}
+
+.h-bank-card {
+    float: left;
+    width: 70% !important;
+    height: 70px !important;
+    margin: 0 auto;
+    color: #fff;
+    line-height: 35px;
+    text-align: center;
+    background-color: #ca566b;
+    border-radius: 5px;
+}
+
+.h-bank-card img {
+    float: left;
+    width: 25px;
+    height: 25px;
+    margin: 5px 0 0 5px;
+    border-radius: 100%;
+}
+
+.h-bank-card p:nth-child(2) {
+    margin-left: 1px;
+}
+
+.h-point {
+    display: block;
+    position: relative;
+    top: 15px;
+    left: 25px;
+    width: 8px;
+    height: 8px;
+    margin-right:3px;
+    float: left;
+    background-color: #eec7ce;
+    border-radius: 100%;
+}
+
+.h-bank-card i:nth-child(4n) {
+    margin-right: 10px;
+}
+
+.h-bank-card i:nth-last-child(1) {
+    display: block;
+    position: relative;
+    left: 25px;
+    float: left;
+}
+
+.h-pu-red {
+    width: 80px;
+    height: 30px;
+    margin: -3px 0;
+    line-height: 30px;
+    color: #ea5504;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #ea5504;
+    border-radius: 15px;
+}
+
+.h-pu-yellow {
+    width: 80px;
+    height: 30px;
+    margin: -3px 0;
+    line-height: 30px;
+    color: #f69d08;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #f69d08;
+    border-radius: 15px;
+}
+
+.h-puj-button-zc {
+    width: 80px;
+    height: 30px;
+    margin: 0px 0;
+    line-height: 30px;
+    color: #ea5504;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #ea5504;
+    border-radius: 15px;
+}
+
+.h-puj-footer {
+    margin: 10px auto;
+}
+
+.h-puj-footer-pay {
+    margin-top: 5px;
+    padding: 0px !important;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.h-special-price {
+    font-size: 18px;
+    color: #3e3e3e;
+}
+
+/*充值?*/
+.h-top-up {
+    height: 100%;
+    padding: 30% 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+.h-top-button {
+    width: 40%;
+    height: 40px;
+    margin: 10px auto;
+    font-size: 18px;
+    line-height: 40px;
+    color: #888;
+    border: 1px solid #888;
+    border-radius: 20px;
+}
+
+.h-top-up img {
+    width: 20%;
+    margin: 0px 40%;
+}
+
+.h-top-up p {
+    margin-top: 10px;
+}
+
+.h-top-up a, .h-top-up a:active, .h-top-up a:link, .h-top-up a:visited, .h-top-up a:hover {
+    display: inline;
+    color: #22b1e5;
+}
+
+/*.h-top-button {*/
+/*margin: 10px auto 0;*/
+/*background-color: #FFF;*/
+/*}*/
+
+.h-top-button div {
+    width: 30%;
+    height: 30px;
+    float: left;
+    margin: 3% auto;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.h-top-button div:nth-child(1) {
+    margin-right: 10%;
+    margin-left: 15%;
+    background-color: #f69d08;
+}
+
+.h-top-button div:nth-child(2) {
+    background-color: #ea5504;
+}
+
+/*储存卡详情*/
+/*.h-card-info {*/
+    /*background-color: #fff;*/
+/*}*/
+.h-card-add{
+    /*width: 100%;*/
+    height: 45px;
+    padding:  0 15px;
+    margin:  10px 15px;
+    line-height: 40px;
+    color: #888;
+    text-align: center;
+    background: #fff;
+    border-radius: 5px;
+}
+.h-card-add span{
+    font-size: 25px;
+}
+.h-card {
+    margin: 10px auto 0;
+    width: 100% !important;
+}
+
+.h-bank-card span {
+    float: left;
+    margin-left: 10px;
+}
+
+.h-card-m-x div {
+    font-size: 18px;
+    text-align: center;
+}
+
+.h-card-m-x div:nth-child(1) {
+    border-bottom: 1px solid #b7b7b5;
+}
+
+#h-card-manage > .modal-dialog {
+    position: absolute;
+    width: 96%;
+    margin: 0 2%;
+    bottom: 10px;
+}
+
+#h-card-remove > .modal-dialog {
+    position: absolute;
+    width: 96%;
+    margin: 0 2%;
+    top: 40%;
+}
+
+.h-card-m-r > .modal-header {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.h-card-m-r > .modal-body {
+    width: 50%;
+    height: 60px;
+    float: left;
+    padding: 0 !important;
+    line-height: 60px;
+    text-align: center;
+
+}
+
+.h-card-m-r div:nth-child(2) {
+    border-right: 1px solid #efefef;
+}
+
+/*提现*/
+.h-withdraw {
+    /*padding: 0 15px;*/
+    margin: 10px 0;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.h-withdraw header {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #f3f1ee;
+}
+
+.h-withdraw-con {
+    border-bottom: 1px solid #f3f1ee;
+}
+
+.h-withdraw-con p:nth-child(1) {
+    padding: 5px 0;
+}
+
+.h-withdraw-con p:nth-child(2) {
+    padding: 0 15px;
+}
+
+.h-withdraw-price {
+    font-size: 40px;
+}
+
+.h-withdraw-4 {
+    position: relative;
+    left: 1px;
+    top: -14px;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.h-withdraw footer {
+    color: #888;
+}
+
+.h-withdraw footer span {
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+}
+
+.h-withdraw-tips {
+    padding: 2px 15px;
+    color: #888;
+}
+
+/*提现详情*/
+.h-withdraw-info {
+    margin-top: 10px;
+    background-color: #fff;
+}
+
+.h-withdraw-info li {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #f3f1ee;
+}
+
+.h-withdraw-info li div:nth-child(1) {
+    font-size: 14px;
+    color: #888;
+}
+
+.h-withdraw-info li div:nth-child(2) {
+    font-size: 16px;
+}
+
+.h-withdraw-info-btn {
+    width: 90%;
+    margin: 20px 5%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    background-color: #ea5504;
+    border-radius: 5px;
+}
+
+/*选择银行卡*/
+.h-choose-bank {
+    padding: 0;
+    margin: 10px 15px;
+}
+
+.h-choose-card {
+    background-color: #fff;
+}
+
+.h-choose-card li {
+    height: 38px;
+    padding: 0;
+    line-height: 38px;
+    border-bottom: 1px solid #f3f1ee;
+}
+
+.h-bank-card div {
+    margin: 10px 15px;
+}
+
+.h-choose-card img {
+    height: 20px;
+    margin: 9px 0;
+}
+
+.h-new-card {
+    color: #3e3e3e;
+}
+
+.h-is-choose {
+    display: none;
+
+}
+
+/*填写信息*/
+.h-fill input {
+    width: 98%;
+    height: 30px;
+    float: right;
+    padding: 5px 15px;
+    margin: 5px auto;
+    line-height: 30px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+
+.h-fill input::-webkit-input-placeholder { /* WebKit browsers */
+    color: #999;
+}
+
+.h-fill input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #999;
+}
+
+.h-fill input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #999;
+}
+
+.h-fill input:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #999;
+}
+
+.h-fill-must {
+    position: relative;
+    top:8px;
+    left: 15px;
+    margin-top: 8px;
+    color: #ea5504;
+}
+
+.h-fill li {
+    border-bottom: 1px solid #f3f1ee;
+    clear: both;
+}
+
+.h-fill div, .h-fill ul {
+    background-color: #fff;
+}
+
+.h-fill-getcode {
+    height: 40px;
+    padding: 0 10px;
+    line-height: 40px;
+    text-align: center;
+    border-left: 1px solid #f3f1ee;
+    border-right: 1px solid #f3f1ee;
+}
+
+/*和输入密码有关*/
+.h-repayGeneral {
+    width: 100%;
+    padding: 10px 15px;
+    background: #fff;
+
+    border: none;
+}
+
+.h-repayGeneral > div {
+    width: 100%;
+    overflow: hidden;
+}
+
+.h-repayGeneral > div > img {
+    width: 25px;
+    display: block;
+    float: left;
+    margin-top: 19.5px;
+}
+
+.keyboard {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background: #F3F1EE;
+    position: fixed;
+    bottom: -222px;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    z-index: 9999;
+}
+
+.keyboard tr {
+    width: 100%;
+    display: -moz-box;
+    display: -webkit-box;
+    margin-bottom: 1px;
+}
+
+.keyboard tr td {
+    padding: 15px 0;
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    display: block;
+    text-align: center;
+    background: #fff;
+    width: 33.3%;
+    font-size: 18px;
+}
+
+.keyboard tr td:first-child + td {
+    margin: 0 1px;
+}
+
+.h-setTips {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.h-setTips + .h-setTips {
+    color: #EA5504;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.h-set span {
+    float: left;
+    line-height: 30px;
+}
+
+.h-set ul {
+
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.h-set {
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+.h-set ul li {
+    float: left;
+    margin: 0 auto;
+    width: 16.6%;
+    height: 40px;
+    font-size: 40px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #F3F1EE;
+    border-left: none;
+}
+
+.h-set ul li:first-child {
+    border-left: 1px solid #F3F1EE;
+}
+
+.h-person-p {
+    margin: 20px 0;
+    font-size: 20px;
+    text-align: center;
+    color: #888;
+    background-color: #fff;
+    border: none;
+}
+
+.h-PU-show {
+
+    position: relative;
+    width: 96%;
+    left: 2%;
+    top: 10%;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 6px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    z-index: 9999;
+}
+
+.h-back-cover {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: #000;
+    opacity: .5;
+    filter: alpha(opacity=50);
+    transition: opacity .15s linear;
+}
+
+.h-PU-show p {
+    margin: 10px auto;
+}
+
+.h-trash {
+    width: 22px;
+    margin-top: -6px;
+}
+
+/*PU币充值*/
+.h-PuTop header {
+    margin-top: 5px;
+}
+
+.h-Pu-input {
+    height: 40px;
+    margin-top: 5px;
+    padding: 0 15px;
+    line-height: 40px;
+    background: #fff;
+}
+
+.h-Pu-input > input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+}
+
+.h-Pu-input > input::-webkit-input-placeholder { /* WebKit browsers */
+    color: #ccc;
+}
+
+.h-Pu-input > input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #ccc;
+}
+
+.h-Pu-input > input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #ccc;
+}
+
+.h-Pu-input > input:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #ccc;
+}
+
+.h-PuTop-list {
+    height: 100%;
+    margin-top: 10px;
+    padding: 0 15px;
+    background: #fff;
+}
+
+.h-PuTop-list li {
+    width: 48%;
+    height: 40px;
+    float: left;
+    margin-top: 10px;
+    padding-left: 20%;
+    color: #ccc;
+    line-height: 40px;
+    background: #FFF url("../img/pubi.png") no-repeat 20%;
+    background-size: 20px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.h-PuTop-list li:nth-child(odd) {
+    margin-right: 4%;
+}
+
+.h-Pu-more {
+    width: 100%;
+    height: 45px;
+    margin: 10px 0;
+    background: #fff;
+}
+
+.h-Pu-more > input {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.h-Pu-more > input::-webkit-input-placeholder { /* WebKit browsers */
+    color: #ccc;
+    text-align: center;
+}
+
+.h-Pu-more > input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #ccc;
+    text-align: center;
+}
+
+.h-Pu-more > input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #ccc;
+    text-align: center;
+}
+
+.h-Pu-more > input:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #ccc;
+    text-align: center;
+}
+
+.h-PuUp-btn {
+    margin: 15px 0;
+    padding: 15px 0;
+}
+
+.h-PuUp-btn > div {
+    width: 48%;
+    height: 45px;
+    float: left;
+    line-height: 45px;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.h-PuUp-btn > div:nth-child(1) {
+    background: #47ba7c;
+    margin-right: 4%;
+}
+
+.h-PuUp-btn > div:nth-child(2) {
+    background: #e47607;
+}
+
+.h-PuUp-on {
+    border: 1px solid #ea5504 !important;
+    color: #ea5504 !important;
+}
+
+/*PU币明细*/
+.h-detail {
+    margin-top: 10px;
+}
+
+.h-detail-header {
+    height: 100%;
+    background: #fff;
+}
+
+.h-detail-header > p {
+    padding-top: 30px;
+}
+
+.h-detail-header > p, .h-detail-header > h1 {
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.h-detail-header > .h-pu-red {
+    margin: 0 auto;
+}
+
+.h-detail-btn {
+    margin: 20px 0;
+}
+
+.h-detail-btn > div {
+    width: 30%;
+    height: 40px;
+    float: left;
+    color: #fff;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+
+    border-radius: 5px;
+}
+
+.h-detail-btn > div:nth-child(1) {
+    margin: 0 4% 0 18%;
+
+    background: #dc4b4b;
+
+}
+
+.h-detail-btn > div:nth-child(2) {
+    background: #4bb8dc;
+}
+
+.h-detail-pu {
+    margin-top: 10px;
+}
+
+.h-detail-pu > header {
+    background: #fff;
+    border: 1px solid #e8e8e8;
+}
+
+.h-detail-pu > header > div {
+    height: 40px;
+    float: left;
+    padding: 0 15px;
+    line-height: 40px;
+}
+
+.h-detail-pu > header > div:nth-child(1) {
+    width: 70%;
+
+}
+
+.h-detail-pu > header > div:nth-child(2) {
+    width: 30%;
+    text-align: right;
+}
+
+.h-detail-ul {
+    background: #fff;
+}
+
+.h-detail-ul > li {
+    display: flex;
+    height: 50px;
+    padding: 0 15px;
+    line-height: 50px;
+    overflow: hidden;
+}
+
+.h-detail-ul > li > div {
+    padding-right: 5px;
+}
+
+.h-detail-ul > li > div:nth-child(1) {
+    flex: 2;
+}
+
+.h-detail-ul > li > div:nth-child(2) {
+    flex: 1;
+    text-align: right;
+}
+
+.h-detail-ul > li > div:nth-child(3) {
+    flex: 1;
+    height: 30px;
+    margin-top: 10px;
+    padding-right: 0;
+    line-height: 30px;
+    text-align: center;
+    color: #dc4b4b;
+    border: 1px solid #9d9d9d;
+    border-radius: 5px;
+}
+

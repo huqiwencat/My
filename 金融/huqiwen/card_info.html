@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>储存卡详情</title>
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css?v=001" rel="stylesheet">
+    <link href="css/reset.css?v=001" rel="stylesheet">
+
+</head>
+<body>
+<header class="h-public-header">
+    <div>
+        <img class="img-responsive" src="img/header_back.png">
+    </div>
+    <div>
+        银行卡
+    </div>
+    <div data-toggle="modal"
+         data-target="#h-card-manage">
+        管理
+    </div>
+</header>
+<div class="modal fade" id="h-card-manage" >
+    <div class="modal-dialog">
+        <div class="modal-content h-card-m-x">
+            <div class="modal-body h-color-red" data-dismiss="modal" data-toggle="modal"
+                 data-target="#h-card-remove">
+               解绑
+            </div>
+            <div class="modal-body"   data-dismiss="modal">
+                取消
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="h-card-remove" >
+    <div class="modal-dialog">
+        <div class="modal-content h-card-m-r clearfix">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">
+                    解绑此卡交易数据将永久清除
+                </h4>
+            </div>
+            <div class="modal-body ">
+                解绑
+            </div>
+            <div class="modal-body h-color-red" data-dismiss="modal">
+                取消
+            </div>
+        </div>
+    </div>
+</div>
+<div class="h-card-info">
+    <ul class="">
+        <li class="clearfix container">
+            <div class="h-bank-card h-card">
+                <p class="clearfix container">
+                    <img class="img-responsive" src="img/testimg.jpg">
+                    <span>招商银行储蓄卡</span>
+                </p>
+
+                <p><i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    &emsp13;
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    &emsp13;
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i>3918</i>
+                </p>
+            </div>
+        </li>
+        <li class="clearfix container">
+            <div class="h-bank-card h-card">
+                <p class="clearfix container">
+                    <img class="img-responsive" src="img/testimg.jpg">
+                    <span>招商银行储蓄卡</span>
+                </p>
+
+                <p><i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    &emsp13;
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    &emsp13;
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i>3918</i>
+                </p>
+            </div>
+        </li>
+    </ul>
+    <div class="h-card-add">
+        <span>+</span>&emsp13;添加银行卡
+    </div>
+</div>
+</body>
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+</html>

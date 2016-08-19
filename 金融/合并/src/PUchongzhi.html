@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <link href="css/reset.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/chongzhi.css" />
+    <title>PU币充值</title>
+</head>
+<body>
+	<div class="L-mainPU">
+			<header class="L-PUBchong-header">
+			<div class="L-PUleft">
+				<img src="img/PUBchong.png" />
+			</div>
+		    <div class="L-PUright">
+		    	<p>PU币充值</p>
+		    	<p>PU币不够了？快来充值吧！</p>
+		    </div>
+		</header>
+		<div class="L-PUB-pay"> 
+		    <ul>
+		        <li>
+		            10元
+		        </li>
+		        <li>
+		            50元
+		        </li>
+		        <li>
+		            100元
+		        </li>
+		        <li>
+		            200元
+		        </li>
+		    </ul>
+		</div>
+		<div class="L-PUB-more">
+			<input type="text" value="其他金额" onfocus="if(this.value==this.defaultValue){this.value='';this.style.color='#3e3e3e';} " onblur="if(this.value==''){this.value=this.defaultValue; this.style.color='#9D9D9D';}"/>
+		</div>
+	</div>
+	<div class="L-chongzhi">
+		<button>点此充值</button>
+		<div class="L-payPU">
+			<p>兑换比例 ：1元人民币 = 1PU币</p>
+			<p>银行系统可能会有延迟，请查看【PU币余额/明细】</p>
+			<p>如10分钟任未到账，请联系我们。</p>
+			<p>官方客服电话：400-878-8593</p>
+		</div>
+	</div>
+</body>
+</html>
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script>
+	$( function(){
+    $(".L-PUB-pay li").click(function(){
+        $(".L-PUB-focas").removeClass("L-PUB-focas");
+        $(this).addClass("L-PUB-focas");
+    });
+    $(".L-PUB-more").click(function(){
+        $(".L-PUB-focas").removeClass("L-PUB-focas");
+        $(this).addClass("L-PUB-focas");
+    });
+});
+</script>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>回收站</title>
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css?v=001" rel="stylesheet">
+    <link href="css/reset.css?v=001" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="modal fade" id="h-card-remove" >
+    <div class="modal-dialog">
+        <div class="modal-content h-card-m-r clearfix">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">
+                   确认还原?
+                </h4>
+            </div>
+            <div class="modal-body"  data-dismiss="modal">
+                取消
+            </div>
+            <div class="modal-body h-color-red">
+                还原
+            </div>
+        </div>
+    </div>
+</div>
+<div class="h-card-info">
+    <ul class="">
+        <li class="clearfix container">
+            <div class="h-bank-card bank-5 h-card">
+                <p class="clearfix container">
+                    <img class="img-responsive" src="img/bank/bank-1.png">
+                    <span>招商银行储蓄卡</span>
+                    <span class="h-card-re pull-right bank-color-5" onclick="restore('id')">
+                        还原
+                    </span>
+                </p>
+
+                <p><i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    &emsp13;
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    &emsp13;
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i>3918</i>
+                </p>
+            </div>
+        </li>
+        <li class="clearfix container">
+            <div class="h-bank-card bank-4 h-card">
+                <p class="clearfix container">
+                    <img class="img-responsive" src="img/bank/bank-1.png">
+                    <span>招商银行储蓄卡</span>
+                    <span class="h-card-re pull-right bank-color-4">
+                        还原
+                    </span>
+                </p>
+
+                <p><i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    &emsp13;
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    &emsp13;
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i>3918</i>
+                </p>
+            </div>
+        </li>
+
+        <li class="clearfix container">
+            <div class="h-bank-card bank-3 h-card">
+                <p class="clearfix container">
+                    <img class="img-responsive" src="img/bank/bank-1.png">
+                    <span>招商银行储蓄卡</span>
+                    <span class="h-card-re pull-right bank-color-3">
+                        还原
+                    </span>
+                </p>
+
+                <p><i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    &emsp13;
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    &emsp13;
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i>3918</i>
+                </p>
+            </div>
+        </li>
+
+        <li class="clearfix container">
+            <div class="h-bank-card bank-2 h-card">
+                <p class="clearfix container">
+                    <img class="img-responsive" src="img/bank/bank-1.png">
+                    <span>招商银行储蓄卡</span>
+                    <span class="h-card-re pull-right bank-color-2">
+                        还原
+                    </span>
+                </p>
+
+                <p><i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    &emsp13;
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    &emsp13;
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i>3918</i>
+                </p>
+            </div>
+        </li>
+
+        <li class="clearfix container">
+            <div class="h-bank-card bank-1 h-card">
+                <p class="clearfix container">
+                    <img class="img-responsive" src="img/bank/bank-1.png">
+                    <span>招商银行储蓄卡</span>
+                    <span class="h-card-re pull-right bank-color-1">
+                        还原
+                    </span>
+                </p>
+
+                <p><i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    &emsp13;
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    &emsp13;
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i class="h-point"></i>
+                    <i>3918</i>
+                </p>
+            </div>
+        </li>
+
+
+    </ul>
+</div>
+
+
+</body>
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script>
+    function restore(id){
+        $('#h-card-remove').modal('show');
+    }
+</script>
+</html>

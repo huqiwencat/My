@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body bgcolor="#F3F1EE">
+	<div class="w-general">支付金额：100元 </div>
+	<ul class="w-payType">
+		<li data-checked="true">
+			<img src="img/zfb.png">
+			<span>支付宝</span>
+			<div><img src="img/gou.png"></div>
+		</li>
+		<li data-checked="false">
+			<img src="img/wx.png">
+			<span>微信</span>
+			<div><img src="img/gou.png"></div>
+		</li>
+	</ul>
+	<button class="w-payBtn" ui-sref="repaySuccess">支付</button>
+</body>
+<script type="text/javascript" src="js/PUBpay.js" ></script>
+</html>
